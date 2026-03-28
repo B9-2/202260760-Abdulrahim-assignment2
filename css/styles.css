@@ -78,3 +78,34 @@ img {
     display: block;
   }
 }
+/* Smooth transition for theme */
+body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+/* Button hover effect */
+button:hover {
+  opacity: 0.8;
+}
+/* Section fade-in */
+#about, #project, #contact {
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  form {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#emptyMessage {
+  color: gray;
+  font-style: italic;
+}

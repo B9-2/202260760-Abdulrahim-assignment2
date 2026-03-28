@@ -20,6 +20,10 @@
 
             <section id="projects">
                 <h2>Projects:</h2>
+
+                <input type="text" id="projectSearch" placeholder="Search projects...">
+                <p id="emptyMessage" style="display: none;">No projects found.</p>
+
                 <ol>
                     <li>
                         <strong>Backstore Management System</strong>
@@ -36,7 +40,7 @@
 
             <section id="contact">
                 <h2>Contact:</h2>
-                <form>
+                <form id="contactForm">
                     <div>
                     <label for="myName">Name:</label>
                     <input type="text" name="myName" id="myName" required>
@@ -54,6 +58,7 @@
 
                     <button type="submit">Confirm</button>
                 </form>
+                <p id="formMessage"></p>
             </section>
         </main>
     </body>
