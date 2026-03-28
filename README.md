@@ -34,4 +34,4 @@ I reviewed and modified the generated code to make sure I understand how it work
 More details: `docs/ai-usage-report.md`.
 
 ## Live Demo
-(Add your Assignment 2 GitHub Pages link here after deployment)
+https://b9-2.github.io/202260760-Abdulrahim-assignment2/
