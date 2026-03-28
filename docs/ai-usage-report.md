@@ -1,35 +1,42 @@
-# AI Usage Report (Assignment 1)
+# AI Usage Report (Assignment 2)
 
 ## Tools Used & Use Cases
 ### ChatGPT
-- **HTML structure:** Helped me plan a simple portfolio layout (About, Projects, Contact).
-- **Form creation:** Suggested a correct contact form structure (labels + inputs + textarea).
-- **CSS improvements:** Helped me fix layout issues (ugly form spacing, image alignment) and make the page more responsive.
-- **JavaScript feature:** Helped me implement dark/light mode toggle.
-- **ReadMe documents:** Helped me writing and organizing documents (ai-usage-report.md, technical-documentation.md, README.md)
+- **HTML structure:** Helped me extend the portfolio by adding new elements like search input and feedback messages.
+- **Form creation:** Helped me improve the contact form by adding validation and user feedback messages.
+- **CSS improvements:** Suggested small UI improvements like hover effects and smoother appearance.
+- **JavaScript features:**
+  - Helped me implement dark/light mode toggle with `localStorage`
+  - Helped me build a live project search filter
+  - Helped me implement form validation and user feedback
+- **Debugging:** Helped me fix small issues in JavaScript logic and improve code clarity.
+- **ReadMe documents:** Helped me update and organize README, technical documentation, and AI report.
 
 ### [Other tool if used, otherwise delete]
-- **GitHub** — I made a repository for the assignment and cloned it using vsc
-- **Visual Studio Code (VSC)** - I used VSC through the entire work. I created files within it, wrote every file (html, css, js, docs, readme)
+- **GitHub** — I created a repository for the assignment and managed files/commits.
+- **Visual Studio Code (VSC)** — I used VSC for writing and organizing all project files (HTML, CSS, JS, docs).
 
 ## Benefits & Challenges
 **Benefits**
-- Saved time by giving working examples quickly.
-- Helped me understand common HTML/CSS patterns (forms, spacing, responsive images).
+- Saved time by providing working examples for JavaScript features.
+- Helped me understand how to implement interactivity (search filter, form validation).
+- Made it easier to debug and improve code structure.
 
 **Challenges / Limitations**
-- Some suggestions needed changes to match my code style and assignment requirements.
-- I had to fix small issues (wrong paths, sizing, styling differences) after testing in the browser.
-- AI doesn’t know my exact folder names or screenshots, so I had to verify everything.
-- In SWE363, we learned JavaScript as if it was python and when I wanted to make a dark mode feature I struggled so much
+- Some suggestions needed modification to match my existing code and assignment requirements.
+- I had to test everything in the browser to make sure it works correctly.
+- AI does not always match my exact structure, so I had to adjust IDs and elements.
+- Some features (like filtering and validation) required understanding before using them.
 
 ## Learning Outcomes
-- Improved my CSS basics (centering images, spacing sections, making form inputs full width).
-- Learned how to connect JavaScript to HTML and use `addEventListener` to make interactivity.
-- Practiced debugging by checking DevTools and adjusting code.
+- Learned how to use `localStorage` to store user preferences.
+- Improved understanding of JavaScript events (`click`, `input`, `submit`).
+- Learned how to filter content dynamically using `includes()`.
+- Learned how to validate form inputs and provide user feedback.
+- Improved debugging skills using browser tools.
 
 ## Responsible Use & Modifications
-- I **reviewed every suggestion** and tested it in the browser.
-- I **modified code** to fit my project (IDs/classes, text content, button wording, and layout).
-- I checked for correctness (paths, required attributes, responsive behavior) and made changes when needed.
-- I only used AI as help for ideas and examples, then rewrote/adjusted the final code myself.
+- I **reviewed and tested all AI suggestions** before using them.
+- I **modified the code** to fit my project structure and requirements.
+- I made sure I understand how each feature works before including it.
+- I used AI as a support tool for learning and problem solving, not as a replacement for my work.
