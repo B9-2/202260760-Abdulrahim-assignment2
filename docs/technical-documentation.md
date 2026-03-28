@@ -12,7 +12,7 @@ This project is an improved portfolio website built with HTML, CSS, and JavaScri
 - `docs/technical-documentation.md` — This document
 
 ## HTML Structure (index.html)
-- `<main id="container">` wraps the whole page content.
+- `<main id="container">` wraps the whole page content
 - Sections:
   - `#about` — short intro
   - `#projects` — ordered list of projects, each project has a title, description, and image
